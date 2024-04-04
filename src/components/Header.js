@@ -10,22 +10,13 @@ import logoNavbar from "../assets/logo/logo-sweetshop.png";
 import { Link } from "react-router-dom";
 
 const Homepage = () => {
-  const [showDropdown, setShowDropdown] = useState(false);
-
-  const handleMouseEnter = () => {
-    setShowDropdown(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowDropdown(false);
-  };
-
   return (
     <div>
       <Row style={{ padding: "1rem", marginLeft: "50px" }}>
         <Col md={2}>
           <img
             src={logoNavbar}
+            alt='logo-navbar'
             width={50}
             height={40}
             style={{ marginLeft: "5rem" }}
@@ -56,11 +47,7 @@ const Homepage = () => {
 
       {/* Row kedua */}
       <Row className='row-menu' style={{ padding: "10px" }}>
-        <Col
-          md={2}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
+        <Col md={2}>
           <Link to='/candy' className='navbar-menu-link'>
             Candy{" "}
           </Link>

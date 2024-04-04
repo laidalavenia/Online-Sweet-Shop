@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/catalog.scss";
 import Header from "../components/Header";
-import Homepage from "../pages/HomepageContent";
 import {
   Breadcrumb,
   Col,
@@ -205,6 +204,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -261,6 +261,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -315,6 +316,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -371,6 +373,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -427,6 +430,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -482,6 +486,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -536,6 +541,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -591,6 +597,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -646,6 +653,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",
@@ -701,6 +709,7 @@ const Catalog = () => {
               />
               <img
                 src={Vector3}
+                alt='Vector 3'
                 style={{
                   zIndex: 1,
                   width: "150px",

@@ -68,7 +68,7 @@ const HomepageContent = () => {
               width='400'
               height='390'
               className='d-inline-block align-top'
-              alt='Vector 1'
+              alt='Vector 2'
               style={{
                 position: "absolute",
                 bottom: 0,
@@ -81,7 +81,7 @@ const HomepageContent = () => {
               width='400'
               height='390'
               className='d-inline-block align-top'
-              alt='Vector 1'
+              alt='Vector 3'
               style={{
                 position: "absolute",
                 bottom: 0,

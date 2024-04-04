@@ -18,6 +18,7 @@ const Footer = () => {
         <Col md={3}>
           <img
             src={logo}
+            alt="logo"
             width={80}
             height={80}
             style={{
@@ -75,8 +76,8 @@ const Footer = () => {
           Online store "Lovely Sweets" <IoRemoveOutline /> 2005 - 2023
         </p>
         <div className='footer-logo'>
-          <img src={mastercardLogo} />
-          <img src={verfiedVisaLogo} />
+          <img alt="card-logo" src={mastercardLogo} />
+          <img alt="visa-logo" src={verfiedVisaLogo} />
         </div>
       </div>
     </div>

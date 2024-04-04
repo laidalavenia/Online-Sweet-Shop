@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Breadcrumb,
-  Col,
-  Container,
-  Row,
-  Form,
-  Card,
-  Badge,
-  Button,
-} from "react-bootstrap";
+import { Col, Row, Card, Badge, Button } from "react-bootstrap";
 import { GrFavorite } from "react-icons/gr";
 import Vector3 from "../assets/images/Vector-3.png";
 import Product1 from "../assets/images/products/choco-almond2.png";
@@ -48,6 +39,7 @@ const Products = () => {
             />
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "170px",
@@ -99,6 +91,7 @@ const Products = () => {
             />
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "170px",
@@ -150,6 +143,7 @@ const Products = () => {
             />
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "170px",
@@ -201,6 +195,7 @@ const Products = () => {
             />
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "170px",

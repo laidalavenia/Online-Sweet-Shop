@@ -31,6 +31,7 @@ const BestSeller = () => {
             <Badge className='custom-badge'>Top Sales</Badge>
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "150px",
@@ -71,6 +72,7 @@ const BestSeller = () => {
             <Badge className='custom-badge2'>Sale</Badge>
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "150px",
@@ -111,6 +113,7 @@ const BestSeller = () => {
             <Badge className='custom-badge'>Top Sales</Badge>
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "150px",
@@ -151,6 +154,7 @@ const BestSeller = () => {
             <Badge className='custom-badge'>Top Sales</Badge>
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "150px",

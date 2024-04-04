@@ -45,6 +45,7 @@ const ProductDetail = () => {
           <Col md={6}>
             <img
               src={Vector3}
+              alt='Vector 3'
               style={{
                 zIndex: 1,
                 width: "400px",
@@ -55,6 +56,7 @@ const ProductDetail = () => {
             />
             <img
               src={Product1}
+              alt='gambar produk 1'
               style={{
                 zIndex: 2,
                 position: "absolute",
