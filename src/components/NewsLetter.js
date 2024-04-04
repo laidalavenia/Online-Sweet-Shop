@@ -12,7 +12,7 @@ const NewsLetter = () => {
             className='newsletter-item'
             style={{ alignItems: "center" }}
           >
-            <h1 className='about-title'>Get Our Newsletter</h1>
+            <h1 className='about-title-newsletter'>Get Our Newsletter</h1>
 
             <p className='about-p'>
               Subscribe to our newsletter and know about latest <br />{" "}

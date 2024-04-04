@@ -168,7 +168,7 @@ const ProductDetail = () => {
             <div
               style={{ display: "flex", marginLeft: "4rem", marginTop: "2rem" }}
             >
-              <Button className='btn-chart' style={{ height: "2.5rem" }}>
+              <Button className='btn-chart-pd' style={{ height: "2.5rem" }}>
                 Add to Chart
               </Button>
               <GrFavorite

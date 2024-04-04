@@ -153,3 +153,36 @@
   text-decoration: none !important;
   color: #461a0f !important;
 }
+
+.btn-chart-catalog,
+.btn-chart-catalog:hover,
+.btn-chart-catalog:active {
+  background-color: #e42a2a;
+  border-color: #e42a2a;
+  justify-content: center;
+  border-radius: 20px;
+  width: 200px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn-chart-catalog:hover {
+  background-color: #ff3636;
+  border-color: #ff3636;
+}
+
+.btn-chart-catalog:active {
+  background-color: #e42a2a !important;
+  border-color: #e42a2a !important;
+}
+
+.card-title-catalog,
+.price-tag-catalog {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.weight-tag-catalog {
+  color: #858181;
+  font-size: 13px;
+}

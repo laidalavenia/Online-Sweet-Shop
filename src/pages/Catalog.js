@@ -227,16 +227,16 @@ const Catalog = () => {
               />
 
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -282,16 +282,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -337,16 +337,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -394,16 +394,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -451,16 +451,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -507,16 +507,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -562,16 +562,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -618,16 +618,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -674,16 +674,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -730,16 +730,16 @@ const Catalog = () => {
                 }}
               />
               <Card.Body>
-                <Card.Title className='card-title'>
+                <Card.Title className='card-title-catalog'>
                   <Link to='/product-detail' className='product-link'>
                     {" "}
                     Black Chocolate with Almond{" "}
                   </Link>
                 </Card.Title>
-                <p className='weight-tag'>Weight: 100 g</p>
-                <p className='price-tag'>105 $</p>
+                <p className='weight-tag-catalog'>Weight: 100 g</p>
+                <p className='price-tag-catalog'>105 $</p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Button className='btn-chart'>Add to Chart</Button>
+                  <Button className='btn-chart-catalog'>Add to Chart</Button>
                 </div>
               </Card.Body>
             </Card>

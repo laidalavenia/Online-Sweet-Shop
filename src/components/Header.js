@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/header.scss";
 import { Row, Col, InputGroup, Form } from "react-bootstrap";
 import { MdKeyboardArrowDown } from "react-icons/md";
