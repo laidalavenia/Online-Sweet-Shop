@@ -47,10 +47,10 @@ const Footer = () => {
         </Col>
         <Col md={3}>
           <div class='vertical-text'>
-            <p href='#'>Call center</p>
+            <a href='#'>Call center</a>
             <p href='#'>+38 (097) 600 38 38</p>
-            <p href='#'>+38 (097) 600 38 38</p>
-            <p href='#'>+38 (097) 600 38 38</p>
+            <p href='#'>+38 (097) 609 34 25</p>
+            <p href='#'>+38 (097) 610 37 98</p>
             <div className='icon-footer'>
               <a href='#'>
                 <FiFacebook />

@@ -1,22 +1,13 @@
 import React, { useState } from "react";
-import "../styles/homepage.scss";
-import {
-  Navbar,
-  Container,
-  Row,
-  Col,
-  InputGroup,
-  Form,
-  Dropdown,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import "../styles/header.scss";
+import { Row, Col, InputGroup, Form } from "react-bootstrap";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
 import { IoPersonOutline } from "react-icons/io5";
 import { MdFavoriteBorder } from "react-icons/md";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import logoNavbar from "../assets/logo/logo-sweetshop.png";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -33,7 +24,12 @@ const Homepage = () => {
     <div>
       <Row style={{ padding: "1rem", marginLeft: "50px" }}>
         <Col md={2}>
-          <img src={logoNavbar} width={50} height={40} style={{marginLeft:"5rem"}} />
+          <img
+            src={logoNavbar}
+            width={50}
+            height={40}
+            style={{ marginLeft: "5rem" }}
+          />
         </Col>
         <Col md={6}>
           <div className='search-box'>
@@ -65,34 +61,34 @@ const Homepage = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          Candy{" "}
-          <MdKeyboardArrowDown
-            style={{ verticalAlign: "middle", marginBottom: "3px" }}
-          />
+          <Link to='/candy' className='navbar-menu-link'>
+            Candy{" "}
+          </Link>
+          <MdKeyboardArrowDown className='navbar-menu' />
         </Col>
         <Col md={2}>
-          Chocolate Bars{" "}
-          <MdKeyboardArrowDown
-            style={{ verticalAlign: "middle", marginBottom: "3px" }}
-          />
+          <Link to='/catalog' className='navbar-menu-link'>
+            Chocolate Bars
+          </Link>{" "}
+          <MdKeyboardArrowDown className='navbar-menu' />
         </Col>
         <Col md={2}>
-          Diet Sweets{" "}
-          <MdKeyboardArrowDown
-            style={{ verticalAlign: "middle", marginBottom: "3px" }}
-          />
+          <Link to='/diet-sweets' className='navbar-menu-link'>
+            Diet Sweets
+          </Link>{" "}
+          <MdKeyboardArrowDown className='navbar-menu' />
         </Col>
         <Col md={2}>
-          Gift Sweets{" "}
-          <MdKeyboardArrowDown
-            style={{ verticalAlign: "middle", marginBottom: "3px" }}
-          />
+          <Link to='/gift-sweets' className='navbar-menu-link'>
+            Gift Sweets{" "}
+          </Link>
+          <MdKeyboardArrowDown className='navbar-menu' />
         </Col>
         <Col md={2}>
-          About Us{" "}
-          <MdKeyboardArrowDown
-            style={{ verticalAlign: "middle", marginBottom: "3px" }}
-          />
+          <Link to='/about' className='navbar-menu-link'>
+            About Us{" "}
+          </Link>
+          <MdKeyboardArrowDown className='navbar-menu' />
         </Col>
       </Row>
       <div class='horizontal-line'></div>

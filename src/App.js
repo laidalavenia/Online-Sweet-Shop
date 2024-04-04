@@ -1,24 +1,20 @@
-import logo from "./logo.svg";
 import "./App.scss";
-import Homepage from "./pages/Homepage";
-import Catalog from "./pages/Catalog";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomepageContent from "./pages/HomepageContent";
-import Categories from "./pages/Categories";
-import BestSeller from "./pages/BestSeller";
-import About from "./pages/About";
-import Footer from "./pages/Footer";
+import Catalog from "./pages/Catalog";
+import ProductDetail from "./components/ProductDetail";
 
 function App() {
   return (
-    <div className='App'>
-      <Homepage />
-      <HomepageContent />
-      <Categories />
-      <BestSeller />
-      <About />
-      <Footer />
-      {/* <Catalog/> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomepageContent />} />
+        <Route path='/catalog' element={<Catalog />} />
+        <Route path='/product-detail' element={<ProductDetail />} />
+
+        {/* <Route path='/footer' element={<Footer />} /> */}
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,28 @@
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #461a0f;
+}
+
+.btn-quantity,
+.btn-quantity:hover,
+.btn-quantity:active {
+  background-color: #461a0f;
+  border-color: #461a0f;
+  justify-content: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-quantity:hover {
+  background-color: #461a0f;
+  border-color: #461a0f;
+}
+
+.btn-quantity:active {
+  background-color: #461a0f !important;
+  border-color: #461a0f !important;
+}

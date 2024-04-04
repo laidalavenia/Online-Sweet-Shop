@@ -42,6 +42,20 @@
   font-weight: 600;
   color: #461a0f;
   cursor: pointer;
+
+  .navbar-menu {
+    vertical-align: middle;
+    margin-bottom: 3px;
+  }
+
+  .navbar-menu:hover {
+    cursor: pointer;
+  }
+
+  .navbar-menu-link {
+    text-decoration: none !important; /* Menghilangkan garis bawah */
+    color: inherit !important; /* Mewarisi warna teks */
+  }
 }
 
 .horizontal-line {

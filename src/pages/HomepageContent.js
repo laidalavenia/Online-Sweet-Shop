@@ -1,6 +1,11 @@
 import React from "react";
 import "../styles/homepageContent.scss";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import Header from "../components/Header";
+import Categories from "../components/Categories";
+import BestSeller from "../components/BestSeller";
+import About from "../components/About";
+import Footer from "../components/Footer";
 import Vector1 from "../assets/images/Vector-1.png";
 import Vector2 from "../assets/images/Vector-2.png";
 import Vector3 from "../assets/images/Vector-3.png";
@@ -10,7 +15,8 @@ import Choco3 from "../assets/images/choco-3.png";
 
 const HomepageContent = () => {
   return (
-    <Container>
+    <div className='Homepage'>
+      <Header />
       <Row
         style={{
           display: "flex",
@@ -28,7 +34,7 @@ const HomepageContent = () => {
           }}
         >
           <p className='text-leftup'>Large Collection of</p>
-          <h1 className="text-middle">
+          <h1 className='text-middle'>
             Sweets and <br /> Chocolate
           </h1>
           <p className='text-leftdown'>
@@ -131,7 +137,11 @@ const HomepageContent = () => {
           </div>
         </Col>
       </Row>
-    </Container>
+      <Categories />
+      <BestSeller />
+      <About />
+      <Footer />
+    </div>
   );
 };
 

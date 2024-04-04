@@ -7,8 +7,19 @@ import Vector3 from "../assets/images/Vector-3.png";
 const BestSeller = () => {
   return (
     <Container style={{ padding: "3rem" }}>
-      <h1 className='title' style={{padding:"2rem"}}>Best Sellers</h1>
-      <Row style={{marginLeft:"1rem"}}>
+      <h1
+        className='title'
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          padding: "2rem",
+          marginTop: "2rem",
+          color: "#461a0f",
+        }}
+      >
+        Best Sellers
+      </h1>
+      <Row style={{ marginLeft: "1rem" }}>
         <Col md={3}>
           <Card
             style={{

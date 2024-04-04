@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/about.scss";
-import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import VectorLine from "../assets/images/about/Vector-line-about.png";
 import VectorRed from "../assets/images/about/Vector-red-about.png";
 import VectorChoco from "../assets/images/about/Vector-choco-about.png";
 import { RiArrowRightSLine } from "react-icons/ri";
+import NewsLetter from "../components/NewsLetter";
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
           }}
         >
           <h1 className='about-title'>About Us</h1>
-          <p className="about-p" style={{ marginTop: "3rem" }}>
+          <p className='about-p' style={{ marginTop: "3rem" }}>
             Lovely Sweets is an online swet shop with a large collection <br />
             of candles and chocolate. Our sweets are made from only <br />
             the best natural ingredients.Here you can find a special gift <br />{" "}
@@ -84,29 +85,7 @@ const About = () => {
           </div>
         </Col>
       </Row>
-      <Row className='box-wrapper' style={{ padding: "5rem" }}>
-        <Col
-          md={6}
-          className='newsletter-item'
-          style={{ alignItems: "center" }}
-        >
-          <h1 className='about-title'>Get Our Newsletter</h1>
-
-          <p className="about-p">
-            Subscribe to our newsletter and know about latest <br /> promotions
-            and news!
-          </p>
-        </Col>
-        <Col md={6} style={{ display: "flex", alignItems: "center" }}>
-          <Form.Control
-            className='placeholder-form'
-            type='email'
-            placeholder='email@gmail.com'
-            style={{ marginRight: "10px" }}
-          />
-          <Button className='btn-subscribe'>Subscribe</Button>
-        </Col>
-      </Row>
+      <NewsLetter />
     </Container>
   );
 };

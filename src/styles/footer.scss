@@ -1,7 +1,7 @@
 .footer-wrapper {
   background-color: #461a0f;
   margin-top: 4rem;
-  height: 500px;
+  height: 420px;
 
   .vertical-text {
     display: flex;
@@ -12,7 +12,7 @@
       color: #fff;
       display: flex;
       margin-left: 4px;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     .icon-footer > * {
       cursor: pointer;
@@ -24,7 +24,6 @@
   p {
     color: #fff;
     text-decoration: none;
-    /* Menghapus margin bawaan dari paragraf */
     padding: 0.5rem; /* Memberikan padding agar teks terlihat lebih jelas dan berjarak */
   }
   .footer-line {

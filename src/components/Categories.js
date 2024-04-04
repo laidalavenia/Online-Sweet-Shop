@@ -9,7 +9,18 @@ import GiftSweets from "../assets/images/categories/gift-choco.png";
 const Categories = () => {
   return (
     <Container style={{ padding: "1rem" }}>
-      <h1 className='title'>Our Categories</h1>
+      <h1
+        className='title'
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          padding: "1rem",
+          marginTop: "2rem",
+          color: "#461a0f",
+        }}
+      >
+        Our Categories
+      </h1>
       <div
         className='category-items'
         style={{
